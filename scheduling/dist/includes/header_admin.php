@@ -14,6 +14,12 @@
                   <!-- Tasks Menu -->
                  <li class="">
                     <!-- Menu Toggle Button -->
+                   <a href="../academicsystem.php" class="" style="font-size:14px"><i class="glyphicon glyphicon-star-empty"></i> Dashboard</a>
+                  </li>
+                  <!-- Tasks Menu -->
+                  <!-- Tasks Menu -->
+                 <li class="">
+                    <!-- Menu Toggle Button -->
                    <a href="home.php" class="" style="font-size:14px"><i class="glyphicon glyphicon-star-empty"></i> Class Schedule</a>
                   </li>
                   <!-- Tasks Menu -->
@@ -126,7 +132,7 @@
                   <!-- Tasks Menu -->
 					       <li class="">
                     <!-- Menu Toggle Button -->
-                   <a href="settings.php" style="color:#fff;" class="dropdown-toggle">
+                   <a href="settings.php"  class="dropdown-toggle">
                       <i class="glyphicon glyphicon-cog text-red"></i>Settings
                       				
                     </a>

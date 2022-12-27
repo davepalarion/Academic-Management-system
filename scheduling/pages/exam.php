@@ -18,7 +18,7 @@ endif;?>
     <link rel="stylesheet" href="../plugins/select2/select2.min.css">
     <!-- AdminLTE Skins. Choose a skin from the css/skins
          folder instead of downloading all of them to reduce the load. -->
-    <link rel="stylesheet" href="../dist/css/skins/_all-skins.min.css">
+    <link rel="stylesheet" href="../dist/css/skins/skin-blue.css">
 	<script src="../dist/js/jquery.min.js"></script>
  </head>
   <!-- ADD THE CLASS layout-top-nav TO REMOVE THE SIDEBAR. -->

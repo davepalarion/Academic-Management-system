@@ -1,5 +1,3 @@
-<!--<a href="https://prog-addict.blogspot.com/">Scheduling System by Prog Addict</a>
-//<a href="https://www.facebook.com/progaddictbylee/">Honeylee T. Magbanua-->
 <!-- Left side column. contains the logo and sidebar -->
       <aside class="main-sidebar">
         <!-- sidebar: style can be found in sidebar.less -->
@@ -43,5 +41,3 @@
         </section>
         <!-- /.sidebar -->
       </aside>
-<!--<a href="https://prog-addict.blogspot.com/">Scheduling System by Prog Addict</a>
-//<a href="https://www.facebook.com/progaddictbylee/">Honeylee T. Magbanua-->

@@ -1,4 +1,4 @@
 
 <?php 
-	echo "Scheduling System";
+	echo "Academic Management System";
 ?>
