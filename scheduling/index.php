@@ -28,7 +28,7 @@
    
     <div class="login-box">
       <div class="login-logo">
-        <h1>SCHEDULING SYSTEM</h1>
+        <h1>ACADEMIC MANAGEMENT SYSTEM</h1>
       </div><!-- /.login-logo -->
       <div class="login-box-body">
         <p class="login-box-msg">Sign in to start your session</p>
