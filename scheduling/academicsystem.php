@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, width=device-width, height=device-height, target-densitydpi=device-dpi">
     <link rel="stylesheet" href="academicsystem.css">
     <!-- bootstrap only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
@@ -80,16 +80,9 @@
             <span style="font-size:30px;cursor:pointer" class="right" onclick="openNav()">&#9776;</span>
         </div>
       </nav>
+<img src="bg1.jpg" alt="bg" style="width:1365px;height:582px;">
 </div>
     <!-- side bar-->
-
-
-
-
-
-
-
-
 
     <script>
         /*       SIDE BAR FUNCTION           */
