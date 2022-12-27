@@ -56,9 +56,9 @@ endif;
               
     <?php
         if(!isset($_SESSION)) 
-        { 
-            session_start(); 
-        }
+         { 
+             session_start(); 
+         } 
         $member=$_SESSION['id'];
         include('../dist/includes/dbcon.php');
         $query=mysqli_query($con,"select * from subject order by subject_code")or die(mysqli_error());
@@ -144,9 +144,10 @@ endif;
 						  <form method="post" action="subject_update.php">
 						  <div class="form-group">
 							<label for="date">Update Subject</label><br>
-                <input type="hidden" class="form-control" id="id" name="id" value="<?php echo $_REQUEST['id'];?>">
+                <input type="hidden" class="form-control" id="id" name="id" value="<?php  echo $_REQUEST['id']; ?>">
 								<input type="text" class="form-control" id="code" name="code" value="<?php echo $_REQUEST['code'];?>" placeholder="Subject Code">
 								<input type="text" class="form-control" id="class" name="title" value="<?php echo $_REQUEST['title'];?>" placeholder="Subject Title" required>
+                
 						  </div><!-- /.form group -->
 					</div>
 				  </div>	

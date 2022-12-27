@@ -22,16 +22,22 @@
         <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <style>
+    .ml3 {
+      font-weight: 800;
+      font-size: 0.8em;
+    }
+    </style>
+
   </head>
   <!-- ADD THE CLASS layout-top-nav TO REMOVE THE SIDEBAR. -->
   <!-- <body class="hold-transition login-page" style="background:#0d6efd"> -->
-  <body class="hold-transition login-page" style="background-image: url('bg.jpg'); background-size: 110% 220%;" >
-   
+  <body class="hold-transition" style="background-image: url('bg1.jpg'); background-size: 100% 150%;" >
     <div class="login-box">
       <div class="login-logo">
-        <h1>ACADEMIC MANAGEMENT SYSTEM</h1>
-      </div><!-- /.login-logo -->
-      <div class="login-box-body" style="opacity: 0.8">
+        <h1 class="ml3">ACADEMIC MANAGEMENT SYSTEM</h1>
+      </div>
+      <div class="login-box-body" style="opacity: 0.9">
         <p class="login-box-msg">Sign in to start your session</p>
         <form action="login.php" method="post">
           <div class="form-group has-feedback">
@@ -45,17 +51,20 @@
           <div class="row">
 			<div class="col-xs-6 pull-right">
 			  <button type="reset" class="btn btn-block btn-flat">Clear</button>
-            </div><!-- /.col -->
+            </div>
 			<div class="col-xs-6 pull-right">
               <button type="submit" class="btn btn-primary btn-block btn-flat" name="login" default>Sign In</button>
 
-            </div><!-- /.col -->
+            </div>
           </div>
         </form>
 
-      </div><!-- /.login-box-body -->
-    </div><!-- /.login-box -->
-   
+      </div>
+    </div>
+</div>
+
+
+
 <!-- jQuery 2.1.4 -->
     <script src="plugins/jQuery/jQuery-2.1.4.min.js"></script>
     <!-- Bootstrap 3.3.5 -->
@@ -68,5 +77,27 @@
     <script src="dist/js/app.min.js"></script>
     <!-- AdminLTE for demo purposes -->
     <script src="dist/js/demo.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+    <script>
+ // Wrap every letter in a span
+var textWrapper = document.querySelector('.ml3');
+textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+anime.timeline({loop: true})
+  .add({
+    targets: '.ml3 .letter',
+    opacity: [0,1],
+    easing: "easeInOutQuad",
+    duration: 2250,
+    delay: (el, i) => 150 * (i+1)
+  }).add({
+    targets: '.ml3',
+    opacity: 0,
+    duration: 1000,
+    easing: "easeOutExpo",
+    delay: 1000
+  });
+</script>
   </body>
 </html>
