@@ -34,7 +34,7 @@
                 </div>
                 <div class="text_container" id="show1" >
                     <!-- <span><a href="classchedule.php">TEACHERS SCHEDULE  </a></span> -->
-                    <span><a href="scheduling/pages/home.php">SCHEDULING  </a></span>
+                    <span><a href="pages/home.php">SCHEDULING  </a></span>
                  </div>
 
 
@@ -66,7 +66,7 @@
                     <span><a href="">Monitoring Report  </a></span>
                  </div>
                  <div class="container_1" id="flip2">
-                    <a href="login.php"><span>LOGOUT</span></a>
+                    <a href="index.php"><span>LOGOUT</span></a>
                 </div>
             </div>
 

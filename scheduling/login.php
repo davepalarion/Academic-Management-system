@@ -42,7 +42,8 @@ $query=mysqli_query($con,"select * from member where username='$user' and passwo
 		  	if ($status=='admin')
 		  		{
 				  
-				 	echo "<script type='text/javascript'>document.location='pages/home.php'</script>";
+				 	// echo "<script type='text/javascript'>document.location='pages/home.php'</script>";
+					echo "<script type='text/javascript'>document.location='academicsystem.php'</script>";
 				 }
 			  else
 			  {
