@@ -1,7 +1,3 @@
-
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -23,6 +19,7 @@
 <title>Dashboard - <?php include('dist/includes/title.php');?></title>
 </head>
 <body>
+
     <div class="main_container">
         <!---  side bar     -->
         <div id="mySidenav" class="sidenav" style="opacity: 0.8";>

@@ -55,7 +55,10 @@ endif;
               </thead>
               
     <?php
-        session_start();
+        if(!isset($_SESSION)) 
+        { 
+            session_start(); 
+        }
         $member=$_SESSION['id'];
         include('../dist/includes/dbcon.php');
         $query=mysqli_query($con,"select * from subject order by subject_code")or die(mysqli_error());
