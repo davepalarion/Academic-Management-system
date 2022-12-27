@@ -14,8 +14,8 @@
     <link rel="stylesheet" href="dist/css/AdminLTE.min.css">
     <!-- AdminLTE Skins. Choose a skin from the css/skins
          folder instead of downloading all of them to reduce the load. -->
-    <link rel="stylesheet" href="dist/css/skins/_all-skins.min.css">
-
+    <!-- <link rel="stylesheet" href="dist/css/skins/_all-skins.min.css"> -->
+    <link rel="stylesheet" href="dist/css/skins/skin-blue-light.css">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -24,13 +24,14 @@
     <![endif]-->
   </head>
   <!-- ADD THE CLASS layout-top-nav TO REMOVE THE SIDEBAR. -->
-  <body class="hold-transition login-page" style="background:#ffbb22">
+  <!-- <body class="hold-transition login-page" style="background:#0d6efd"> -->
+  <body class="hold-transition login-page" style="background-image: url('bg.jpg'); background-size: 110% 220%;" >
    
     <div class="login-box">
       <div class="login-logo">
         <h1>ACADEMIC MANAGEMENT SYSTEM</h1>
       </div><!-- /.login-logo -->
-      <div class="login-box-body">
+      <div class="login-box-body" style="opacity: 0.8">
         <p class="login-box-msg">Sign in to start your session</p>
         <form action="login.php" method="post">
           <div class="form-group has-feedback">
@@ -47,16 +48,13 @@
             </div><!-- /.col -->
 			<div class="col-xs-6 pull-right">
               <button type="submit" class="btn btn-primary btn-block btn-flat" name="login" default>Sign In</button>
+
             </div><!-- /.col -->
           </div>
         </form>
 
-        
-
       </div><!-- /.login-box-body -->
     </div><!-- /.login-box -->
-      
-           
    
 <!-- jQuery 2.1.4 -->
     <script src="plugins/jQuery/jQuery-2.1.4.min.js"></script>
