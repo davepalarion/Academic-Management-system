@@ -20,7 +20,7 @@
 <!---jquery-->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-    <title>ACADEMIC SYSTEM</title>
+<title>Dashboard - <?php include('dist/includes/title.php');?></title>
 </head>
 <body>
     <div class="main_container">
