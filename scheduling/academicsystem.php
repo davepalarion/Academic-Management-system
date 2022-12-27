@@ -25,7 +25,7 @@
 <body>
     <div class="main_container">
         <!---  side bar     -->
-        <div id="mySidenav" class="sidenav">
+        <div id="mySidenav" class="sidenav" style="opacity: 0.8";>
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 
             <div class="side-bar-container">
